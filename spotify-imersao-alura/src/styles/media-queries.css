@@ -1,0 +1,9 @@
+/* definir quantidade de cards em fç do tamanho máximo da tela */
+
+@media screen and (max-width: 1015px) {
+  /* classe que carrega o dislay grid */
+  .offer__list-item {
+    /* definir colunas */
+    grid-template-columns: 1fr 1fr;
+  }
+}
