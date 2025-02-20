@@ -6,13 +6,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Imersão</title>
-    <!-- carregar css dentro do html -->
+
+    <!-- CARREGAR CSS DENTRO DO HTML -->
+
     <link rel="stylesheet" href="styles.css" />
-    <!-- ícone no navegador -->
+
+    <!-- IMPORTAR CDN PARA IMPORTAR ÍCONE DO FONT AWESOME -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+      integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+
+    <!-- ÍCONE NO NAVEGADOR -->
   </head>
   <body>
     <h1>Spotify</h1>
-    <!-- primeira div: menu lateral -->
+
+    <!-- MENU LATERAL -->
+
     <div class="sidebar">
       <!-- tag <nav> é usada para fazer menus (semântica). -->
       <nav>
@@ -23,30 +43,30 @@
           <a href="">
             <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify" />
           </a>
-          <!-- <div> lista -->
+          <!-- LISTA -->
           <div>
-            <!-- ul>li*2  -->
+            <!-- comando: ul>li*2  -->
             <ul>
               <li>
                 <a href="">
-                  <span>ícone</span>
+                  <span class="fa fa-home"></span>
                   <span>Início</span>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <span>ícone</span>
+                  <span class="fa fa-search"></span>
                   <span>Buscar</span>
                 </a>
               </li>
             </ul>
           </div>
-          <!-- fim da <div> lista -->
+          <!-- FIM DA LISTA -->
         </div>
         <!-- fim do logo do spotify -->
       </nav>
     </div>
-    <!-- fim da priveira div: menu lateral -->
+    <!-- FIM DO MENU LATERAL -->
   </body>
   <footer></footer>
 </html>
