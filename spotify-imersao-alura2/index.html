@@ -1,0 +1,52 @@
+<!-- 127.0.0.1:5500 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Imersão</title>
+    <!-- carregar css dentro do html -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- ícone no navegador -->
+  </head>
+  <body>
+    <h1>Spotify</h1>
+    <!-- primeira div: menu lateral -->
+    <div class="sidebar">
+      <!-- tag <nav> é usada para fazer menus (semântica). -->
+      <nav>
+        <!-- logo do spotify -->
+        <div>
+          <!-- a = cria um link (dentro vai a imagem) -->
+          <!-- ./ = sair desse arquivo e entrar em outra pasta -->
+          <a href="">
+            <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify" />
+          </a>
+          <!-- <div> lista -->
+          <div>
+            <!-- ul>li*2  -->
+            <ul>
+              <li>
+                <a href="">
+                  <span>ícone</span>
+                  <span>Início</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span>ícone</span>
+                  <span>Buscar</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- fim da <div> lista -->
+        </div>
+        <!-- fim do logo do spotify -->
+      </nav>
+    </div>
+    <!-- fim da priveira div: menu lateral -->
+  </body>
+  <footer></footer>
+</html>
